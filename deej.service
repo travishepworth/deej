@@ -1,0 +1,14 @@
+[Unit]
+Description=deej audio mixer
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+WorkingDirectory=__DEEJ_DIR__
+ExecStart=__DEEJ_DIR__/deej-release
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
