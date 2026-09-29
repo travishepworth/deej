@@ -15,8 +15,11 @@ slider_mapping:
     - vesktop.bin
     - discord
   2:
+    - wine-preloader
     - wine64-preloader
     - cs2
+    - noita.exe
+    - fatal
     - Audio Stream
     - mindustry
     - factorio
@@ -25,6 +28,7 @@ slider_mapping:
     - java
   3:
     - spotify
+    - ncspot
   4: master
 
 # set this to true if you want the controls inverted (i.e. top is 0%, bottom is 100%)
